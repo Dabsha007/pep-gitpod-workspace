@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class ScannerLab{
+public static void main(String[]args){
+    //predefined standard input object 
+    //declare the object and intialiaze with
+Scanner sc = new Scanner(System.in); 
+
+//string input 
+String name = sc.nextLine(); 
+
+//character input
+Char gender = sc.next().charA();
+
+//numerical data input
+//byte, short, float can be read 
+//using similar name functions 
+
+int aga = sc.nextInt();
+long mobileNumebr = sc.nextLong(); 
+double cpga = sc.nextDouble();
+
+//print the vlues if the input correctly obtained 
+
+System.out..println("Name is:"+ name); 
+System.out.println("Gender is:" + gender); 
+System.out.println("Age is:" + age);
+System.out.println("Mobile Number is:" + mobileNumber); 
+System.ou.println("CPGA is:" + cpga); 
+
+}
+}
